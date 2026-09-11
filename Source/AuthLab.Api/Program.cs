@@ -20,6 +20,14 @@ public class Program
 
         app.UseHttpsRedirection();
 
+        app.MapGet("/api/public", () =>
+        {
+            return Results.Ok(new
+            {
+                message = "Endpoint Público"
+            });
+        });
+
         app.Run();
     }
 }
