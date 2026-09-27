@@ -19,6 +19,7 @@
         <td>Entender autenticação, autorização, `401`, `403`, `[Authorize]` e `HttpContext.User`</td>
         <td>Endpoint público e protegido, configuração mínima de authorization, documentação dos conceitos</td>
     </tr>
+    
     <tr>
         <td>`v0.2-cookie-auth`</td>
         <td>Cookie Authentication</td>
